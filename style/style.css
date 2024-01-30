@@ -1,0 +1,26 @@
+.bgcolor{
+
+    
+    background-image: url('../Image/left.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 300px; /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white; /* Text color on top of the image */
+
+}
+
+.bgcolor2{
+
+    background-color: aqua ;
+}
+.bgcolor3{
+
+    background-color:black ;
+    color: white;
+    font-style: italic;
+   
+      
+}
