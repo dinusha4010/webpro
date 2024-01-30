@@ -24,10 +24,10 @@
       <ul class="navbar-nav">
       
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 1</a>
+          <a class="nav-link active" aria-current="page" href="ex1.php">Exercise 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 2</a>
+          <a class="nav-link active" aria-current="page" href="ex2.php">Exercise 2</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Exercise 3</a>
