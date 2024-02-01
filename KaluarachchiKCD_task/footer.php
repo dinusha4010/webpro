@@ -5,8 +5,8 @@
   <div class="container text-center bgcolor3">
   <div class="row">  
   <div class="col-sm-4">&copy; Dinusha Kaluarachchi</div>
-  <div class="col-sm-4">2024</div>
-  <div class="col-sm-4">All Right reseverd </div>
+  <div class="col-sm-8"><?php $file_name= $_SERVER['SCRIPT_FILENAME']; echo  $file_name.filemtime('/~kaluarachchige23000/webpro/KaluarachchiKCD_task/ex3.php'); ?></div>
+  
  
 
   

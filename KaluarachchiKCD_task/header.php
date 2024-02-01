@@ -30,10 +30,10 @@
           <a class="nav-link active" aria-current="page" href="ex2.php">Exercise 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 3</a>
+          <a class="nav-link active" aria-current="page" href="ex3.php">Exercise 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 4</a>
+          <a class="nav-link active" aria-current="page" href="ex4.php">Exercise 4</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Exercise 5</a>
