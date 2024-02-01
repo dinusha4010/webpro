@@ -5,7 +5,15 @@
   <div class="container text-center bgcolor3">
   <div class="row">  
   <div class="col-sm-4">&copy; Dinusha Kaluarachchi</div>
-  <div class="col-sm-8"><?php $file_name= $_SERVER['SCRIPT_FILENAME']; echo  $file_name.filemtime('/~kaluarachchige23000/webpro/KaluarachchiKCD_task/ex3.php'); ?></div>
+  <div class="col-sm-8"><?php 
+  $file_path = $_SERVER['PHP_SELF'];
+  $filename = basename($file_path);
+  $last_modify=filemtime($filename);
+  $last_modify_date=date('F d, Y H:i:s', $last_modify);
+
+
+  echo "The last modification of the file "  .$filename. "  was on ". $last_modify_date;
+  ?></div>
   
  
 
