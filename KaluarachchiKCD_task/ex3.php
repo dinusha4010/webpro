@@ -26,6 +26,7 @@ include 'header.php';
 $fname=$_POST["fname"] ;
 $lname=$_POST["lname"] ;
 
+if(!empty($fname) && !empty($lname))
 echo "</h6><strong><br><br>Hello $fname $lname, You are welcome to my site.<br><br></strong></h6>";
 
 
