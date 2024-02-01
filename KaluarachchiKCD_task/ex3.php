@@ -2,7 +2,7 @@
 include 'header.php';
 ?>
 
-<h4>Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site</h4>
+<h4>Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site<br><br></h4>
 
 <form method="post" action=<?php echo htmlspecialchars($_SERVER['PHP-SELF'])?>>
 
@@ -24,7 +24,7 @@ include 'header.php';
 <?php
 
 $fname=$_POST["fname"] ;
-$lname=$_POST['lname'] ;
+$lname=$_POST["lname"] ;
 
 echo "</h6><strong><br><br>Hello $fname $lname, You are welcome to my site.<br><br></strong></h6>";
 
@@ -32,7 +32,7 @@ echo "</h6><strong><br><br>Hello $fname $lname, You are welcome to my site.<br><
 
 ?>
 
-<br><br><h4>String Variables: Write a PHP script with two string variables ($str1 = "Hello"; $str2 = "World";). Join them together and print the length of the string.</h4>
+<br><br><h4>String Variables: Write a PHP script with two string variables ($str1 = "Hello"; $str2 = "World";). Join them together and print the length of the string.<br><br></h4>
 
 
 
@@ -44,7 +44,7 @@ echo "<h6>Length of the $str_full is : ".strlen($str_full)."</h6>";
 
 ?>
 
-<h4><br><br> Number Addition: Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and an echo statement to output your answer.</h4>
+<h4><br><br> Number Addition: Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and an echo statement to output your answer.<br><br></h4>
 
 <?php
 $num1=298;
@@ -55,7 +55,7 @@ echo "<h6> Toal is : ".$total."</h6>"
 
 ?>
 
-<h4><br><br> Browser Detection: Write a PHP script to detect the browser being used to view your pages. Hint: Use predefined variables: $_SERVER).</h4>
+<h4><br><br> Browser Detection: Write a PHP script to detect the browser being used to view your pages. Hint: Use predefined variables: $_SERVER<br><br>.</h4>
 <?php
 
 function get_browser_name($user_agent)
