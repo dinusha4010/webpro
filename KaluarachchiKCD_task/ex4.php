@@ -92,7 +92,7 @@ if(!empty($number))
     echo "<table border='1'>";
     for ($i = 1; $i <= 12; $i++) {
         echo "<tr>";
-        echo "<td>$number x $i</td>";
+        echo "<td>$number x $i = </td>";
         echo "<td>" . ($number * $i) . "</td>";
         echo "</tr>";
     }
