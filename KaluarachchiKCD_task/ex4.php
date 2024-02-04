@@ -4,7 +4,7 @@ include 'header.php'
 ?>
 <h4>If-Else: Write a PHP script to get inputs (age and name) from the user and based on their age, decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting, use form to get user input)</h4>
 
-<form method="post" action=<?php echo htmlspecialchars($_SERVER['PHP-SELF'])?>>
+<form method="post" name="vote" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 
 <div class="row mb-3">
     <label for="name" class="col-sm-2 col-form-label">Name:</label>
@@ -25,7 +25,7 @@ include 'header.php'
 </form>
 
 <?php
-
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
 $name=$_POST["name"] ;
 $age=$_POST["age"] ;
 
@@ -40,6 +40,7 @@ if ($age>=18)
 else{
     echo "<h6>$name, Sorry you are not eligible for voting</h6><br><br> ";
 
+}
 }
 }
 ?>
@@ -68,7 +69,7 @@ switch ($currentMonth) {
 
 <h4>For Loop: Write a PHP script that will print the multiplication table of a number (n, use form to get user input).</h4>
 
-<form method="post" action=<?php echo htmlspecialchars($_SERVER['PHP-SELF'])?>>
+<form method="post" name="multiplication" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 
 <div class="row mb-3">
     <label for="number" class="col-sm-2 col-form-label">Enter number</label>
