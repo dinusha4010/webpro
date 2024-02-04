@@ -4,7 +4,7 @@ include 'header.php';
 
 <h4>Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site<br><br></h4>
 
-<form method="post" action=<?php echo htmlspecialchars($_SERVER['PHP-SELF'])?>>
+<form method="post" name="userRegForm" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 
 <div class="row mb-3">
     <label for="fname" class="col-sm-2 col-form-label">First Name:</label>
@@ -22,14 +22,14 @@ include 'header.php';
 <button type="submit" class="btn btn-primary">Sign in</button>
 
 <?php
-
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $fname=$_POST["fname"] ;
 $lname=$_POST["lname"] ;
 
 if(!empty($fname) && !empty($lname))
 echo "</h6><strong><br><br>Hello $fname $lname, You are welcome to my site.<br><br></strong></h6>";
 
-
+ }
 
 ?>
 

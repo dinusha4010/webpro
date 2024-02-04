@@ -83,6 +83,8 @@ switch ($currentMonth) {
 </form>
 <?php
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
 $number=$_POST["number"] ;
 
 
@@ -98,6 +100,7 @@ if(!empty($number))
     }
     echo "</table>";
 
+}
 }
 ?>
 <h4><br><br>While Loop: Write a PHP script that will print all the numbers from 1 to n. (use form to get user input)</h4>
@@ -117,6 +120,7 @@ if(!empty($number))
 </form>
 
 <?php
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $number2=$_POST["number2"] ;
 if(!empty( $number2))
 {
@@ -128,6 +132,7 @@ if(!empty( $number2))
      $i++;
  }
 }
+ }
 ?>
 
 <h4><br><br>Foreach Loop: Write a PHP script that will print all the elements of an array. $myarray=("HTML", "CSS", "PHP", "JavaScript").</h4>
