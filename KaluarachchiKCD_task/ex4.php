@@ -106,7 +106,8 @@ if(!empty($number))
 ?>
 <h4><br><br>While Loop: Write a PHP script that will print all the numbers from 1 to n. (use form to get user input)</h4>
 
-<form method="post" action=<?php echo htmlspecialchars($_SERVER['PHP-SELF'])?>>
+<form method="post" name="count" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+
 
 <div class="row mb-3">
     <label for="number2" class="col-sm-2 col-form-label">Enter number</label>
