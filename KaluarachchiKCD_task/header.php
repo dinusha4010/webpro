@@ -42,7 +42,7 @@
           <a class="nav-link active" aria-current="page" href="#">Exercise 6</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 7</a>
+          <a class="nav-link active" aria-current="page" href="ex7.php">Exercise 7</a>
         </li>
 
       </ul>
@@ -54,8 +54,12 @@
     <div class="container text-center ">
     <div class="row">
     <div class="col-sm-3 bgcolor">
-        <h1>Web Programming Individual Tasks
-</h1>
+    <h1>Web Programming Individual Tasks<br></h1>
+    <h4>List Of Tasks</h4>
+ <ul>
+ <li><a href="ex7.php">Create data</a></li>
+ <li><a href="read.php">Read data</a></li>
+</ul>
         
 
 </div>
