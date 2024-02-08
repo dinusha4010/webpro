@@ -36,7 +36,7 @@
           <a class="nav-link active" aria-current="page" href="ex4.php">Exercise 4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Exercise 5</a>
+          <a class="nav-link active" aria-current="page" href="https://github.com/dinusha4010/Travel/blob/main/README.md">Exercise 5</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Exercise 6</a>
@@ -44,6 +44,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="ex7.php">Exercise 7</a>
         </li>
+        
 
       </ul>
     </div>
